@@ -1,0 +1,104 @@
+body{
+    background:url(images/wmV30ZHyr1h6.png) no-repeat;
+    margin: 0px;
+    padding:0px;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.box{
+    width:500px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    padding:40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 20px;
+    color: white;
+    background-attachment: fixed;
+    font-family: sans-serif ,'Century Gothic';
+    border-radius: 20px;
+    
+    
+}
+img {
+    width: 50px;
+    filter:invert(100%);
+}
+img:hover {
+    filter:none;
+}
+.img-box{
+    border-radius:50%;
+    width:200px;
+    height: 200px;
+    filter:invert(0%);
+    border: 5px solid grey;
+    box-shadow: 02px 5px 20px black;
+
+    
+    
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: rgb(7, 248, 7);
+}
+.box h5{
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: rgb(185, 121, 245);
+}
+
+.box h2 {
+    text-transform: capitalize;
+    font-size: 30px;
+    text-decoration: underline rgb(133, 131, 131) wavy;
+}       
+.box p{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+    color: rgb(188, 199, 236)
+    
+}
+
+ul {
+    margin: 0px;
+    padding:0px;
+}
+
+.skills{
+    color: rgb(194, 182, 245); 
+    font-size: 20px;
+    font-weight:bold;
+    
+}
+.box li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    list-style: none;
+   
+}
+ul li a{
+    font-size: 60px;
+    text-decoration: none;
+    color: aliceblue;
+}
+ul li a:hover {
+    color: black;
+    box-shadow: 0px 0px 10px wheat;
+}
+
+.conect {
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    
+}
